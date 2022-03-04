@@ -1,0 +1,100 @@
+.background-minecraft-aquatic{
+    background-image:url(../images/backgrounds/minecraft/aquatic.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+}
+.background-minecraft-forest{
+    background-image:url(../images/backgrounds/minecraft/forest.jpg)
+}
+.background-minecraft-hill{
+    background-image:url(../images/backgrounds/minecraft/hill.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom
+}
+.background-web-desktop{
+    background-image:url(../images/backgrounds/web/desktop-3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+}
+.background-web-desktop-2{
+    background-image:url(../images/backgrounds/web/desktop-2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+}
+.background-support-office-desk{
+    background-image:url(../images/backgrounds/support/office-desk.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom
+}
+.background-faq-desktop-notes{
+    background-image:url(../images/backgrounds/faq/desktop-notes.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+}
+.header-with-background{
+    padding:120px 0!important
+}
+.unset-width{
+    max-width:none!important
+}
+.column-row>.column-100{
+    width:100%
+}
+.banner{
+    display:inline
+}
+.banner p{
+    display:block;
+    margin-top:10px
+}
+.banner img{
+    float:left;
+    height:40px;
+    margin-right:10px
+}
+.banner .location{
+    vertical-align:top;
+    line-height:25px
+}
+.banner .address{
+    font-size:13px;
+    vertical-align:top;
+    line-height:2.5px;
+    display:block;
+    color:#5c6c84
+}
+.terms h4,.privacy h4{
+    margin-top:25px!important
+}
+.terms p,.privacy p{
+    margin-top:10px!important
+}
+.terms ol,.privacy ol{
+    list-style-position:inside!important;
+    margin-top:10px!important
+}
+.terms li,.privacy li{
+    padding-left:5px!important
+}
+.promobanner{
+    overflow:hidden;
+    padding:20px 24px;
+    box-shadow:0 5px 30px -5px rgba(37,45,51,.25);
+    border-radius:6px;
+    position:relative;
+    background:rgba(0,0,0,0) linear-gradient(45deg,#135fac 1%,#1e88e5 64%,#1e87e3 97%) repeat scroll -1px center/102% 102%;
+    color:#fff;
+    text-align:center;
+    font-size:18px
+}
+@media(max-width:768px),(max-height:640px){
+    #content>.content-row .content-header.content-header-large h1{
+        font-size:35px
+    }
+}

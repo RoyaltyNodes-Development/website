@@ -1,0 +1,6 @@
+AuthGroupFile /dev/null
+AuthType Basic
+AuthUserFile /home/wnwgfptm/domains/royaltynodes.net/.htpasswd/public_html/.htpasswd
+AuthName "Maintenance Mode"
+require valid-user
+ErrorDocument 401 "Unauthorized Access"
